@@ -1,19 +1,11 @@
 #include <stdio.h>
-
 /**
+ * main - Print string in console
  *
- *  * main - main block
- *
- *   * Return: 0
- *
- *    */
-
+ * Return: 0 to terminate program
+ */
 int main(void)
-
 {
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
