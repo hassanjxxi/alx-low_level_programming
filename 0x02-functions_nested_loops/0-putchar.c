@@ -1,20 +1,20 @@
 #include "main.h"
-
 /**
- * main - Prints main as a message.
- *
- * Return: Always 0 (Success)
+ * main - Print "main" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
 int main(void)
 {
-	int str[] = {72, 111, 108, 98, 101, 114, 116, 111, 110};
-	int count, sz;
+	char main[] = "main";
+	int i = 0;
 
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	while (main[i] != '\0')
 	{
-		_putchar(str[count]);
+		_putchar(main[i]);
+		i++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
