@@ -34,6 +34,13 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(32);
+					_putchar(32);
+					_putchar((i * j) / 10 + '0');
+					_putchar((i * j) % 10 + '0');
+				}
+				else
+				{
+					_putchar(32);
 					_putchar((i * j) / 100 + '0');
 					_putchar(((i * j) % 100) / 10 + '0');
 					_putchar(((i * j) % 100) % 10 + '0');
@@ -46,5 +53,3 @@ void print_times_table(int n)
 		}
 	}
 }
-
-					
