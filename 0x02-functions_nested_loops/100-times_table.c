@@ -40,12 +40,11 @@ void print_times_table(int n)
 				}
 				if (j == n)
 					break;
-				_putchar(44)
+				_putchar(44);
 			}
 			_putchar('\n');
 		}
 	}
 }
-		                      
 
 					
