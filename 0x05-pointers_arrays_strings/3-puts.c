@@ -6,16 +6,11 @@ nclude "main.h"
  *
  * Return: void function no return value
  */
+
+
 void _puts(char *str)
 {
-	int i, length = 0;
-
-	do {
-		i = *(str + length);
-		if (i == '\0')
-			break;
-		_putchar(i);
-		length++;
-	} while (i != '\0');
+	while (*str)
+		_putchar(*str++);
 	_putchar('\n');
 }
